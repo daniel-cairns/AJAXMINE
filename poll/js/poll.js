@@ -47,9 +47,9 @@ $('document').ready(function(){
 });
 
 function drawChart(pollResults) {
-	var TotalVotes = pollResults.totalVotes;
-	var TotalYes = pollResults.totalYes;
-	var TotalNo = pollResults.totalNo;
+	var TotalVotes = pollResults.TotalVotes;
+	var TotalYes = pollResults.TotalYes;
+	var TotalNo = pollResults.TotalNo;
 
 	var data = google.visualization.arrayToDataTable([
   		// Column names

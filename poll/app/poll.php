@@ -62,9 +62,9 @@ $dataToSend = [
 	'staus' => true,
 	'message' => 'Vote Successful',
 	'pollResults' => [
-		'totalYes' => (int)$result['TotalYes'],
-		'totalNo' => (int)$result['TotalNo'],
-		'totalVotes' => (int)$result['TotalVotes']
+		'TotalYes' => (int)$result['TotalYes'],
+		'TotalNo' => (int)$result['TotalNo'],
+		'TotalVotes' => (int)$result['TotalVotes']
 	]
 ];
 

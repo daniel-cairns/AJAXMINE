@@ -52,7 +52,7 @@
 			$result = json_encode($result);
 			// Create a javascript element and call the drawChart function
 
-			$alreadyVoted = '<script>var toShow'.$result.'</script>';
+			$alreadyVoted = '<script>var toShow = '.$result.'</script>';
 		}
 
 	 ?>
